@@ -1,0 +1,79 @@
+.homepage {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .post {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    margin: 3%;
+    margin-left: 20%;
+    margin-right: 20%;
+    transform: skewY(-5deg);
+    background: #000000;
+
+  }
+  
+  .post:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgb(140, 0, 255);
+
+   
+  }
+  .posts{
+    padding: 2%;
+  }
+  .postheader {
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1rem;
+    margin: 0px 0;
+   color: #000000c7;
+  }
+  
+  
+  .postTextContainer {
+    width: 95%;
+      position: relative;
+        max-width: 800px;
+        margin: auto;
+        background-color:  #000000 ;
+        box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+        padding: auto;
+        color: #fff;
+        height: auto;
+        line-height: 1.5;
+      transition: all .3s;
+      text-size-adjust: auto;
+      text-align: justify; 
+  }
+  
+  h3 {
+    margin-top: 20px;
+    color: rgb(140, 18, 240);
+    display: flex; 
+    font-size: 1.3rem;
+    margin-top: 2%;
+  }
+  
+.delete{
+  position: absolute;
+   top: 0;
+    right: 0 ;
+}
+.delete:hover::after {
+  content: "Delete";
+  background-color: rgba(149, 0, 255, 0.8); /* Optional: add a background color */
+  color: #fff; /* Optional: set the text color */
+  padding: 5px; /* Optional: add padding for better visibility */
+  border-radius: 5px; /* Optional: add rounded corners */
+}
+  

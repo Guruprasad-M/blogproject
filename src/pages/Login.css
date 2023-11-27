@@ -1,0 +1,85 @@
+/* TwoDivs.css */
+
+/* Flex container styling */
+.flex-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  /* Left div styling */
+  @media screen and (min-width:768px){
+    .left-div {
+        flex: 1;
+       
+        background-position: center;
+        background-size: cover; /* Adjust the percentage as needed for width and height */
+        background-repeat: no-repeat; /* Prevent the background image from repeating */
+        position: relative;
+      }
+  }
+  .left-div {
+    flex: 1;
+    background-image: url(https://img.freepik.com/premium-photo/how-start-bl…r-blog-blog-word-table-with-laptop_72482-5630.jpg);
+    background-position: center;
+    background-repeat: inherit;
+    position: relative;
+   
+   
+  }
+  
+ 
+
+  .right-div p{
+    font-weight: bold;
+    font-size: x-large;
+ 
+  }
+  
+  button{
+    
+    font-size: large;
+  }
+  
+  /* Right div styling */
+  .right-div {
+    flex: 1;
+    display: flex; /* Add display: flex; to enable flex properties */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: auto;
+    background-color: rgb(255, 255, 255); /* Adjust background color as needed */
+  }
+  .welcome-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .welcome-caption {
+    font-size: auto;
+    color: #333;
+  
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Text shadow effect */
+    animation: fadeIn 1.5s ease-out; /* Fade-in animation */
+  }
+  
+  .sub-caption {
+    font-size: auto;
+    color: #030303;
+    letter-spacing: 1px;
+    animation: fadeIn 2s ease-out; /* Fade-in animation with a longer duration */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

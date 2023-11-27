@@ -1,0 +1,64 @@
+/* Add your global styles here */
+
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    }
+
+  
+  .cpContainer {
+    background-image: linear-gradient(147deg, #885cc6 0%, #9f78a3 74%);
+    
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10%;
+    width: 60%;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #8000ff;
+  }
+  
+  .inputGp {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    font-size: auto;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+   
+  }
+  
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    width: auto;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add more styles as needed */
+  
